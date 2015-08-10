@@ -26,7 +26,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener, 
         setContentView(R.layout.activity_main);
         //小花
         token = "ZDyGbtJ7Y1+ZlyrMSTzW/hqckun6xAmkSDRs2b3DbpcDPyslscLJ5NL0TMtXMDCghrbRPKZisyI=";
-//        小红
+//小红
         token = "mUuDr1CTjCFWj7MXMy+92tP0HeoYS6yo9AaqwZMA06KCkGIeIdcXNoxejF/LfajIBI5VLcmSGfdCjVOTuwsNnA==";
         initView();
         registerListener();
@@ -102,7 +102,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener, 
         //
         return userInfo;
     }
-//    https://github.com/superdroidgithup/helloas.git
+
+    //    https://github.com/superdroidgithup/helloas.git
     @Override
     public boolean onReceived(Message message, int i) {
         Log.i("tag", "onReceived");
