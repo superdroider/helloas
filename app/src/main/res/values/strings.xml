@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HelloAS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="connect">连接服务器</string>
+    <string name="conversation">打开单聊页面</string>
+    <string name="conversation_list">打开会话列表</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_conversation">ConversationActivity</string>
+    <string name="title_activity_conversation_list">ConversationListActivity</string>
+</resources>
